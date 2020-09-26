@@ -1,0 +1,29 @@
+{
+    "name": "WETransfer_Bot",
+    "description": "Telegram's best Open Source ALL-In-One Multi Purpose RoBot. Create your Fork now.",
+    "keywords": [
+        "telegram",
+        "link",
+        "wetransfer"
+    ],
+    "website": "https://github.com/TG-AI/wetransfer-Uploader-Bot",
+    "repository": "https://github.com/TG-AI/wetransfer-Uploader-Bot",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your bot token",
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
